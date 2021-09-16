@@ -11,6 +11,11 @@ body {
   
 }
 
+.centrar{
+  text-align: center;
+  margin: auto;
+}
+
 
 .titulo {
   text-align: center;
@@ -30,7 +35,7 @@ body {
 }
 
 .titulo--sombra {
-  text-shadow: 7px 7px #380038;
+  text-shadow: 7px 7px $primary-color;
 }
 
 .titulo--animacion {
@@ -70,7 +75,7 @@ li {
 }
 
 ul li:hover {
-  background-color: #380038;
+  background-color: $primary-color;
   color: white;
   border-radius: 10px;
 }
@@ -138,7 +143,7 @@ ul li:hover {
 }
 
 .divPadre--detalle{
-  background-image: linear-gradient(#380038, rgba(115, 0, 150, 0.411), rgba(68, 68, 68, 0));
+  background-image: linear-gradient($primary-color, rgba(115, 0, 150, 0.411), rgba(68, 68, 68, 0));
   width: 65%;
   height: 650px;
   padding: 16px;
@@ -154,7 +159,7 @@ ul li:hover {
   padding:$padding;
   font-size:$font-size;
   border-width: $border-width;  border-radius: $border-radius;
-  background-image: linear-gradient(#380038, rgba(115, 0, 150, 0.411), rgba(68, 68, 68, 0));
+  background-image: linear-gradient($primary-color, rgba(115, 0, 150, 0.411), rgba(68, 68, 68, 0));
   margin-left: auto;
   margin-right: auto;
   border-color: #f8d302;
@@ -173,7 +178,7 @@ ul li:hover {
 // /* marco de videos de cada categoría */
 
 .marcoVideo {
-  background-image: linear-gradient(#380038, rgba(115, 0, 150, 0.411), rgba(68, 68, 68, 0));
+  background-image: linear-gradient($primary-color, rgba(115, 0, 150, 0.411), rgba(68, 68, 68, 0));
   width: 47%;
   margin-left: auto;
   margin-right: auto;
@@ -191,7 +196,7 @@ ul li:hover {
   margin-right: auto;
   justify-content: center;
   border-radius: 20px;
-  background-color: #380038;
+  background-color: $primary-color;
   color: white;
   border-color: gold;
 

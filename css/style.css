@@ -6,6 +6,10 @@ body {
 #fondoMain {
   background-image: url(../fotos/PosibleFondo.png); }
 
+.centrar {
+  text-align: center;
+  margin: auto; }
+
 .titulo {
   text-align: center;
   font-size: 300%;
