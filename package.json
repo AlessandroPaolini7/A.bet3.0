@@ -1,7 +1,7 @@
 {
-  "name": "proyectosass2",
+  "name": "A.bet",
   "version": "1.0.0",
-  "description": "webapp",
+  "description": "Prototipo de sitio web para apuestas deportivas online, desarrollado durante el cursado de Desarrollo Web en CoderHouse",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
